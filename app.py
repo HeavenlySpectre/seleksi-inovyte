@@ -270,12 +270,3 @@ if model is not None and preprocessor is not None and selector is not None:
 
 else:
     st.error("Model atau preprocessor gagal dimuat. Prediksi tidak dapat dilakukan. Mohon periksa file yang disimpan.")
-
-# --- How to Run ---
-# 1. Save this code as a Python file (e.g., app.py)
-# 2. Make sure the .joblib / .pth files are in the specified MODEL_LOAD_DIR (or create a 'models' subdirectory and put them there)
-# 3. Save the requirements.txt file (see below) in the same directory as app.py
-# 4. Open your terminal or command prompt
-# 5. Navigate to the directory where you saved the files
-# 6. Install dependencies: pip install -r requirements.txt
-# 7. Run the command: streamlit run app.py
